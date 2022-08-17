@@ -10,9 +10,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: - Properties
+    
+    @StateObject var viewModel = ContentViewModel()
+    
+    // MARK: - Body
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 8) {
+            Text("Active card is \(viewModel.activeCard)")
+                .font(.system(size: 22))
+            
+            SnapCarousel()
+                .environmentObject(viewModel.stateModel)
+        } // VStack
+        .frame(height: 350, alignment: .center)
     }
 }
 

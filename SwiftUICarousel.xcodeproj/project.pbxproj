@@ -11,6 +11,8 @@
 		E265182B28AD6EB300E9A1E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265182A28AD6EB300E9A1E7 /* ContentView.swift */; };
 		E265182D28AD6EB500E9A1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E265182C28AD6EB500E9A1E7 /* Assets.xcassets */; };
 		E265183028AD6EB500E9A1E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E265182F28AD6EB500E9A1E7 /* Preview Assets.xcassets */; };
+		E265183728AD6FDC00E9A1E7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265183628AD6FDC00E9A1E7 /* ContentViewModel.swift */; };
+		E265183928AD710100E9A1E7 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E265183828AD710100E9A1E7 /* SnapCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E265182A28AD6EB300E9A1E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E265182C28AD6EB500E9A1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E265182F28AD6EB500E9A1E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E265183628AD6FDC00E9A1E7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E265183828AD710100E9A1E7 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				E265182828AD6EB300E9A1E7 /* SwiftUICarouselApp.swift */,
 				E265182A28AD6EB300E9A1E7 /* ContentView.swift */,
+				E265183628AD6FDC00E9A1E7 /* ContentViewModel.swift */,
+				E265183828AD710100E9A1E7 /* SnapCarousel.swift */,
 				E265182C28AD6EB500E9A1E7 /* Assets.xcassets */,
 				E265182E28AD6EB500E9A1E7 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E265182B28AD6EB300E9A1E7 /* ContentView.swift in Sources */,
+				E265183928AD710100E9A1E7 /* SnapCarousel.swift in Sources */,
 				E265182928AD6EB300E9A1E7 /* SwiftUICarouselApp.swift in Sources */,
+				E265183728AD6FDC00E9A1E7 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
