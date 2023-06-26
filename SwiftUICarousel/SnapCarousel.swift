@@ -111,8 +111,9 @@ struct Carousel<Items : View> : View {
         }
         .offset(x: CGFloat(calcOffset), y: 0)
         .gesture(DragGesture().updating($isDetectingLongPress) { currentState, gestureState, transaction in
-            self.UIState.screenDrag = Float(currentState.translation.width)
-            
+            DispatchQueue.main.async {
+                self.UIState.screenDrag = Float(currentState.translation.width)
+            }
         }.onEnded { value in
             self.UIState.screenDrag = 0
             
