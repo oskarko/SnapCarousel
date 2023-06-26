@@ -47,7 +47,6 @@ struct SnapCarousel: View {
                     .cornerRadius(8)
                     .shadow(color: Color.gray, radius: 4, x: 0, y: 4)
                     .transition(AnyTransition.slide)
-                    .animation(.spring())
                 }
             }
         }

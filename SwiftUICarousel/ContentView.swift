@@ -24,6 +24,7 @@ struct ContentView: View {
             
             SnapCarousel()
                 .environmentObject(viewModel.stateModel)
+                .animation(.spring(), value: viewModel.activeCard)
         } // VStack
         .frame(height: 350, alignment: .center)
     }
